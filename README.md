@@ -50,7 +50,7 @@ Run the app:
 
 python app.py
 Access at:
-http://127.0.0.1:5000
+[http://127.0.0.1:5000](http://127.0.0.1:5500/templetes/)
 
 # 📌 Note
 This project is perfect for beginners exploring Flask and Docker. Easy to run, modify, and extend.
