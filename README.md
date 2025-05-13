@@ -1,33 +1,56 @@
 # 🧮 My Flask Calculator
-## My Flask Calculator is a simple web-based calculator built using Python Flask. It lets you perform basic arithmetic operations like addition, subtraction, multiplication, and division through a clean and easy-to-use web interface.
+My Flask Calculator is a simple calculator web app built using Python Flask and containerized with Docker. It supports basic arithmetic operations like addition, subtraction, multiplication, and division via a clean web interface.
 
 # 💡 Features
-## Basic math operations
+Perform basic math operations: +, –, ×, ÷
 
-## User-friendly web interface
+Simple Flask backend with HTML interface
 
-## Built with Python and Flask
+Lightweight and beginner-friendly
 
-## Great for beginners learning web development
+Dockerized for easy deployment
 
 # 🛠️ Tech Used
-#### Python
+Python
 
-#### Flask
+Flask
 
-#### HTML & CSS
+HTML (Jinja templating)
 
-# 🚀 How to Run
-## Clone the repository:
-#### git clone https://github.com/yourusername/my-flask-calculator.git
-#### cd my-flask-calculator
-## (Optional) Create a virtual environment:
-#### python -m venv venv
-#### source venv/bin/activate  # Linux/macOS
-#### venv\Scripts\activate     # Windows
-## Install Flask:
-#### pip install flask
-## Run the app:
-#### python app.py
-## Open your browser and go to:
-#### http://127.0.0.1:5000
+Docker
+
+# 📁 Project Structure
+
+my-flask-calculator/
+├── app.py              # Main Flask application
+├── Dockerfile          # Docker configuration
+├── requirements.txt    # Python dependencies
+├── templates/
+│   └── index.html      # HTML UI for the calculator
+└── README.md           # Project documentation
+# 🚀 Run with Docker
+Clone the repository:
+
+git clone https://github.com/yourusername/my-flask-calculator.git
+cd my-flask-calculator
+Build the Docker image:
+
+docker build -t my-flask-calculator .
+Run the container:
+
+docker run -d -p 5000:5000 my-flask-calculator
+Open your browser and go to:
+http://localhost:5000
+
+🧪 Run Locally (without Docker)
+Install dependencies:
+
+pip install flask
+Run the app:
+
+python app.py
+Access at:
+http://127.0.0.1:5000
+
+# 📌 Note
+This project is perfect for beginners exploring Flask and Docker. Easy to run, modify, and extend.
