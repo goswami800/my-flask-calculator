@@ -18,3 +18,16 @@
 #### HTML & CSS
 
 # 🚀 How to Run
+## Clone the repository:
+#### git clone https://github.com/yourusername/my-flask-calculator.git
+#### cd my-flask-calculator
+## (Optional) Create a virtual environment:
+#### python -m venv venv
+#### source venv/bin/activate  # Linux/macOS
+#### venv\Scripts\activate     # Windows
+## Install Flask:
+#### pip install flask
+## Run the app:
+#### python app.py
+## Open your browser and go to:
+#### http://127.0.0.1:5000
