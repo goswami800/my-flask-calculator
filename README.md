@@ -22,12 +22,12 @@ Docker
 # 📁 Project Structure
 
 my-flask-calculator/</br>
-├── app.py              # Main Flask application</br>
-├── Dockerfile          # Docker configuration</br>
-├── requirements.txt    # Python dependencies</br>
+├── app.py                   # Main Flask application</br>
+├── Dockerfile               # Docker configuration</br>
+├── requirements.txt         # Python dependencies</br>
 ├── templates/</br>
-│   └── index.html      # HTML UI for the calculator</br>
-└── README.md           # Project documentation</br>
+│   └── index.html           # HTML UI for the calculator</br>
+└── README.md                # Project documentation</br>
 # 🚀 Run with Docker
 Clone the repository:
 
